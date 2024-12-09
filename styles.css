@@ -1,0 +1,56 @@
+.vrIntro{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+.satisfy-regular{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.vrEvents{
+    background-image: url(Images/vrImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
+    position: relative;
+}
+
+
+.greyThick{
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+/* .vrEvents-cards{
+    position: absolute;
+    transform: translate(6% ,-30%);
+} */
+
+.marketingCard2{
+    padding-top: 40px;
+}
+.marketingCard3{
+    padding-top: 80px;
+}
+
+.marketingCard5{
+    padding-top: 40px;
+}
+.marketingCard6{
+    padding-top: 80px;
+}
+
+
+@media (max-width: 480px){
+    .marketingCard2{
+        padding-top: 0;
+    }
+    .marketingCard3{
+        padding-top: 0;
+    }
+    .marketingCard5{
+        padding-top: 0;
+    }
+    .marketingCard6{
+        padding-top: 0;
+    }
+}
